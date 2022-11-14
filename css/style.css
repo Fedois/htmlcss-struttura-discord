@@ -12,12 +12,12 @@ nav, section, .end > div{
     align-items: center;
 }
 section{
-    padding: 20px;
+    padding: 30px;
 }
 
 /* HEADER */
 nav div{
-    flex-basis: 300px;
+    flex-basis: 25%;
     padding: 5px;
 }
 .list{
@@ -81,8 +81,8 @@ section{
 
 header section div{
     background-color: palevioletred;
-    height: 350px;
-    width: 650px;
+    height: 450px;
+    width: 60%;
 }
 main section{
     background-color: white;
@@ -91,37 +91,39 @@ main section{
     background-color: gray;
 }
 main section div{
-    height: 300px;
-    width: 450px;
+    height: 500px;
+    width: 50%;
     background-color: lightblue;
     border: 1px dashed black;
 }
 .section-four > div{
     background-color: green;
     height: 500px;
-    width: 750px;
+    width: 75%;
 }
 main section div:nth-child(2){
-    height: 300px;
-    width: 300px;
+    width: 25%;
     background-color: pink;
     border: 1px dashed black;
 }
+.info{
+    border-bottom: 2px solid white;
+}
 .info div{
-    width: 135px;
-    height: 300px;
+    width: calc(75% / 6);
+    height: 500px;
     background-color: yellow;
     border: 1px dashed black;
 }
 .info .social{
     background-color: palevioletred;
-    width: 200px;
+    width: 25%;
 }
 .end{
     align-items: flex-start;
 }
 .end div{
-    width: 750px;
+    width: 75%;
     background-color: orange;
     height: 30px;
     border: 1px dashed black;
@@ -130,6 +132,8 @@ main section div:nth-child(2){
     height: 20px;
     width: 50px;
 }
+
+
 
 
 
