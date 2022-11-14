@@ -4,3 +4,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERAL */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+
+nav div{
+    flex-basis: 20%;
+    padding: 5px;
+}
+.list{
+    list-style: none;
+    text-align: center;
+}
+ul > li{
+    list-style: none;
+    display: inline-block;
+}
+.button{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+nav{
+    background-color: aqua;
+    height: 50px;
+}
+nav div{
+    background-color: yellow;
+    height: 30px;
+    border: 1px dashed black;
+}
+nav div:nth-child(3){
+    text-align: end;
+}
