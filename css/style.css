@@ -6,7 +6,7 @@
 }
 
 /* GENERAL */
-nav, section, .end > div{
+.flex{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,19 +14,26 @@ nav, section, .end > div{
 section{
     padding: 30px;
 }
-
-/* HEADER */
-nav div{
-    flex-basis: 25%;
+div{
     padding: 5px;
 }
+
+/* HEADER */
+.top-header{
+    max-width: 70%;
+    margin: auto;
+}
 .list{
-    list-style: none;
     text-align: center;
+    flex-grow: 1;
 }
 ul > li{
     list-style: none;
     display: inline-block;
+}
+li > a{
+    text-decoration: none;
+    color: black;
 }
 .button{
     text-align: end;
@@ -38,7 +45,7 @@ ul > li{
 }
 
 /* FOOTER  */
-.end > div{
+.end {
     justify-content: space-between;
 }
 
@@ -61,28 +68,31 @@ ul > li{
 
 
 /* DEBUG */
-nav{
-    background-color: aqua;
-    height: 50px;
-}
-nav div{
-    background-color: orange;
-    height: 30px;
+div{
     border: 1px dashed black;
 }
+header{
+    background-color: aqua;
+}
+.top-header{
+    height: 50px;
+}
+.top-header div{
+    background-color: orange;
+    height: 30px;
+    width: 200px;
+}
 
-section{
+.lower-header{
     background-color: blue;
 }
 
-header section div{
+.lower-header div{
     background-color: palevioletred;
     height: 450px;
     width: 60%;
 }
-main section{
-    background-color: white;
-}
+
 .section-two, .section-four{
     background-color: gray;
 }
@@ -90,7 +100,6 @@ main section div{
     height: 500px;
     width: 50%;
     background-color: lightblue;
-    border: 1px dashed black;
 }
 .section-four > div{
     background-color: green;
@@ -100,33 +109,32 @@ main section div{
 main section div:nth-child(2){
     width: 25%;
     background-color: pink;
-    border: 1px dashed black;
 }
-.info{
+.top-footer{
     border-bottom: 2px solid white;
 }
-.info div{
+footer{
+    background-color: black;
+}
+.top-footer div{
     width: calc(75% / 6);
     height: 500px;
-    background-color: yellow;
-    border: 1px dashed black;
+    background-color: aqua;
 }
-.info .social{
+.top-footer .social{
     background-color: palevioletred;
     width: 25%;
 }
-.end{
-    align-items: flex-start;
+.lower-footer .end{
+    width: 75%;
+    background-color: aqua;
+    height: 50px;
 }
 .end div{
-    width: 75%;
-    background-color: orange;
     height: 30px;
-    border: 1px dashed black;
-}
-.end div div{
-    height: 20px;
-    width: 50px;
+    width: 60px;
+    background-color: pink;
+    text-align: center;
 }
 
 
