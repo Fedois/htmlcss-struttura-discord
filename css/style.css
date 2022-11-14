@@ -33,9 +33,6 @@ ul > li{
 }
 
 /* MAIN */
-main{
-    background-color: white;
-}
 .section-two div:last-child{
     order: -1
 }
@@ -75,7 +72,6 @@ nav div{
 }
 
 section{
-    /* height: 400px; */
     background-color: blue;
 }
 
@@ -98,7 +94,7 @@ main section div{
 }
 .section-four > div{
     background-color: green;
-    height: 500px;
+    height: 700px;
     width: 75%;
 }
 main section div:nth-child(2){
